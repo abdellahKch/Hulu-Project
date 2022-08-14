@@ -11,8 +11,10 @@ max-width: 1000px;
 flex-direction: column;
 `
 export const Item = styled.div`
+width: 80%;
 display: flex;
-border-bottom: 8px solid #333;
+border-bottom: 1.5px solid #333;
+border-width: 80%;
 padding: 50px 5%;
 color: white;
 overflow: hidden;
@@ -33,6 +35,7 @@ export const Text = styled.p`
 export const Break = styled.div`
 `
 export const Span = styled.span`
+color: black;
 font-family: Graphik Web'
 font-size: 13px;
 text-decoration: none;
