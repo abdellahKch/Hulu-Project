@@ -20,8 +20,10 @@ color: white;
 overflow: hidden;
 `
 export const Row = styled.div`
+display:flex;
 `
-export const Column = styled.div`
+export const Column = styled.div` 
+margin-top: ${({ margin }) => margin}px;
 width: 150px;
 `
 export const Link = styled.p`
@@ -30,12 +32,12 @@ margin-buttom: 50px;
 font-family: Graphik Web';
 
 `
+
 export const Text = styled.p`
 `
 export const Break = styled.div`
 `
 export const Span = styled.span`
-color: black;
 font-family: Graphik Web'
 font-size: 13px;
 text-decoration: none;
