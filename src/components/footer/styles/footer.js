@@ -1,44 +1,71 @@
 import styled from "styled-components/macro"
 //  Container, Item, Row, Column, Link, Text
 
-export const Container = styled.div`
+export const Wraper = styled.div`
 width: 100%;
-background-color: #e8eaed;
-display: flex;
-padding: 70px 0;
-margin: auto ;
-max-width: 1000px;
-flex-direction: column;
+height: 452px;
+background-color: #e9eaee;
+flex:shrink;
 `
-export const Item = styled.div`
-width: 80%;
-display: flex;
-border-bottom: 1.5px solid #333;
-border-width: 80%;
-padding: 50px 5%;
-color: white;
-overflow: hidden;
+export const Megacontainer = styled.div`
+margin: auto;
+padding-left: 44px;
+padding-right: 44px;
+width: 919px;
+height: 100%; 
+
+`
+export const Ultra = styled.div`
+height:inherit;
+width: inherit;
+`
+export const Linkc = styled.div`
+width:inherit;
+height:190px;
+padding: 32px 0;
+`
+export const Browsec = styled.div`
+padding-left:0.5rem;
+padding-right: 0.5rem;
+margin:auto
+`
+export const Hthree = styled.h3`
+margin:  auto;
+font-family: "Graphik Web", sans-serif;
+font-size: 12px;
+font-weight: 500;
+line-height: 1;
+letter-spacing: 0.6px;
+text-transform: uppercase;
+padding: 10px 0;
+`
+export const Container = styled.div`
+display:flex
+padding: 12px 0;
+magrin: auto;
 `
 export const Row = styled.div`
-display:flex;
-`
-export const Column = styled.div` 
-margin-top: ${({ margin }) => margin}px;
-width: 150px;
-`
-export const Link = styled.p`
-color: black;
-margin-buttom: 50px;
-font-family: Graphik Web';
 
+display: grid;
 `
 
-export const Text = styled.p`
-`
-export const Break = styled.div`
+export const Link = styled.a`
+display: block;
+flex-direction: column;
+text-align: left;
+text-decoration: none;
+padding-buttom: 10px;
+
+
 `
 export const Span = styled.span`
-font-family: Graphik Web'
-font-size: 13px;
-text-decoration: none;
+width:70px;
+height: 33.59px;
+font-family: "Graphik Web",sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 1.4;
+letter-spacing: 0;
+}
+
 `
