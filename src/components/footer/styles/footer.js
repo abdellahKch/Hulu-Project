@@ -37,7 +37,7 @@ font-weight: 500;
 line-height: 1;
 letter-spacing: 0.6px;
 text-transform: uppercase;
-padding: 10px 0;
+padding: 7px 0;
 `
 export const Container = styled.div`
 display:flex
@@ -45,17 +45,18 @@ padding: 12px 0;
 magrin: auto;
 `
 export const Row = styled.div`
+display: flex;
 
-display: grid;
 `
 
-export const Link = styled.a`
+export const Link = styled.p`
+width:150px;
+font-color:gey;
+margin:0;
 display: block;
 flex-direction: column;
 text-align: left;
 text-decoration: none;
-padding-buttom: 10px;
-
 
 `
 export const Span = styled.span`
@@ -66,6 +67,11 @@ font-size: 14px;
 font-weight: 400;
 line-height: 1.4;
 letter-spacing: 0;
-}
 
+`
+export const Break = styled.div`
+  flex-basis: 100%;
+  height: 10px;
+`;
+export const Column = styled.div`
 `

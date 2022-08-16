@@ -8,7 +8,9 @@ import { Wraper,
          Container,
          Row,
          Link,
-         Span} from "./styles/footer"
+         Span,
+         Break,
+         Column} from "./styles/footer"
 export default function Footer( {children, ...restProps}){
     
     return (
@@ -42,4 +44,10 @@ Footer.Link = function FooterLink({children, ...restProps}){
 }
 Footer.Span = function FooterSpan({children, ...restProps}){
     return(<Span {...restProps}>{children}</Span>)
+}
+Footer.Break = function FooterBreak({children, ...restProps}){
+    return(<Break {...restProps}>{children}</Break>)
+}
+Footer.Column = function FooterColumn({children, ...restProps}){
+    return(<Column {...restProps}>{children}</Column>)
 }
