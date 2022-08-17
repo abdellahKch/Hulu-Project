@@ -6,14 +6,12 @@ export function FooterContainer(){
              <Footer.Ultra>
               <Footer.Linkc>
                 <Footer.Browsec>
-                  <Footer.Hthree>Browse</Footer.Hthree>
                   <Footer.Container>
+                   <Footer.Hthree>Browse</Footer.Hthree>
                     <Footer.Row>
                       <Footer.Column>
-                       <Footer.Link>
-                        <Footer.Link>Streaming</Footer.Link>
-                        <Footer.Span>Library</Footer.Span>
-                       </Footer.Link>
+                       <Footer.Link href ="#">Streaming</Footer.Link>
+                       <Footer.Link href="#">library</Footer.Link>
                        <Footer.Break></Footer.Break>
                        <Footer.Link href="#">Live Tv</Footer.Link>
                        <Footer.Break></Footer.Break>
@@ -44,20 +42,46 @@ export function FooterContainer(){
                        <Footer.Link href="#">Starz</Footer.Link>
                      </Footer.Column>
                      <Footer.Column>
-                       <Footer.Link>
-                        <Footer.Link>Hulu, Disney+,</Footer.Link>
-                        <Footer.Span>And ESPN+</Footer.Span>
-                       </Footer.Link>
+                       <Footer.Link href="#">Hulu, Disney+,</Footer.Link>
+                       <Footer.Link href="#">And ESPN+</Footer.Link>
                        <Footer.Break></Footer.Break>
-                       <Footer.Link>
-                        <Footer.Link>Hulu (No Ads),</Footer.Link>
-                        <Footer.Span>Disney+, And</Footer.Span>
-                        <Footer.Link>ESPN+</Footer.Link>
-                       </Footer.Link>
+                       <Footer.Link href="#">Hulu (No Ads),</Footer.Link>
+                       <Footer.Link href="#">Disney+, And</Footer.Link>
+                       <Footer.Link href="#">ESPN +</Footer.Link>
                        <Footer.Break></Footer.Break>
                        <Footer.Link href="#">Student Discount</Footer.Link>
                      </Footer.Column>
                    </Footer.Row>
+                 </Footer.Container>
+                 <Footer.Container>
+                  <Footer.Hthree>HELP</Footer.Hthree>
+                   <Footer.Row>
+                    <Footer.Column>
+                      <Footer.Link href="#">Account &</Footer.Link>
+                      <Footer.Link href="#">Billing</Footer.Link>
+                      <Footer.Break />
+                      <Footer.Link href="#">Plans & Pricing</Footer.Link>
+                      <Footer.Break />
+                      <Footer.Link href="#">Supported</Footer.Link>
+                      <Footer.Link href="#">Devices</Footer.Link>
+                      <Footer.Break />
+                      <Footer.Link href="#">Accessibility</Footer.Link>
+                    </Footer.Column>
+                  </Footer.Row>
+                 </Footer.Container>
+                 <Footer.Container>
+                  <Footer.Hthree>ABOUT US</Footer.Hthree>
+                  <Footer.Row>
+                    <Footer.Column>
+                      <Footer.Link href="#">Shop Hulu</Footer.Link>
+                      <Footer.Break />
+                      <Footer.Link href="#">Press</Footer.Link>
+                      <Footer.Break />
+                      <Footer.Link href="#">Jobs</Footer.Link>
+                      <Footer.Break />
+                      <Footer.Link href="#">Contact</Footer.Link>
+                    </Footer.Column>
+                  </Footer.Row>
                  </Footer.Container>
                </Footer.Browsec>
              </Footer.Linkc>

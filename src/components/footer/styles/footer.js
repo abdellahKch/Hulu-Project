@@ -5,7 +5,8 @@ export const Wraper = styled.div`
 width: 100%;
 height: 452px;
 background-color: #e9eaee;
-flex:shrink;
+pistion:fixed;
+margin-buttom: 0px;
 `
 export const Megacontainer = styled.div`
 margin: auto;
@@ -25,6 +26,7 @@ height:190px;
 padding: 32px 0;
 `
 export const Browsec = styled.div`
+display:flex;
 padding-left:0.5rem;
 padding-right: 0.5rem;
 margin:auto
@@ -49,9 +51,13 @@ display: flex;
 
 `
 
-export const Link = styled.p`
+export const Link = styled.a`
+font-family: "Graphik Web",sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 1.4;
+letter-spacing: 0;
 width:150px;
-font-color:gey;
 margin:0;
 display: block;
 flex-direction: column;
