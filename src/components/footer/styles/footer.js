@@ -84,16 +84,16 @@ export const Break = styled.div`
 export const Column = styled.div`
 `
 export const Logocon = styled.div`
-    display: flex;
+
     flex-direction: column;
-    height:130px;
+    height:160px;
     border-top: 2px solid #D9DCE2;
     padding: 32px 0 0 0;
     font-size: 12px;
-    display: flex;
+
     flex-wrap: wrap;
     line-height: 32px;
-    justify-content: space-between;
+    
 }
 `
 export const LegalLinksc = styled.div`
@@ -113,8 +113,39 @@ text-decoration: none;
  
 `
 export const Linkimg = styled.img`
+
 width: ${({ width }) => width};
 height:${({height }) => height};;
 `
 export const LegaLR = styled.div`
+
+`
+export const Legalrc = styled.a`
+display:flex;
+align-items: center;
+width: max-content;
+margin-left: 32px;
+color:#50535B;
+font-family: "Graphik Web",sans-serif;
+text-decoration: none;
+`
+export const Legalrrow = styled.div`
+   
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -32px;
+    margin-bottom: 32px
+}
+
+
+`
+export const Legalrt = styled.p`
+`
+export const Linklr = styled.a`
+color:#50535B;
+font-family: "Graphik Web",sans-serif;
+font-size: 12px;
+font-weight: 400;
+line-height: 1.4;
+
 `

@@ -102,6 +102,33 @@ export function FooterContainer(){
                   </Footer.Linklogo>
                 </Footer.Containerl>
               </Footer.LegalLinksc>
+                <Footer.Legalrrow>
+                  <Footer.Legalrc>
+                    <Footer.Linklr>©2022 Hulu, LLC</Footer.Linklr>
+                  </Footer.Legalrc>
+                  <Footer.Legalrc href="#">
+                    <Footer.Linkimg src="https://c.evidon.com/pub/icon1.png"></Footer.Linkimg>
+                    <Footer.Linklr>About Ads</Footer.Linklr>
+                  </Footer.Legalrc>
+                  <Footer.Legalrc href="#">
+                    <Footer.Linklr>Terms of Use</Footer.Linklr>
+                  </Footer.Legalrc> 
+                  <Footer.Legalrc href="#"> 
+                    <Footer.Linklr>Private Policy</Footer.Linklr>
+                  </Footer.Legalrc>
+                  <Footer.Legalrc href="#">
+                    <Footer.Linklr>Do Not Sell My Personnel Information</Footer.Linklr>
+                  </Footer.Legalrc>
+                  <Footer.Legalrc href="#">
+                    <Footer.Linklr>Your California Privacy Rights</Footer.Linklr>
+                  </Footer.Legalrc>
+                  <Footer.Legalrc href="#">
+                    <Footer.Linklr>Tv Parental Guidance</Footer.Linklr>
+                  </Footer.Legalrc>
+                  <Footer.Legalrc href="#">
+                    <Footer.Linklr>Sitemap</Footer.Linklr>
+                  </Footer.Legalrc>
+                </Footer.Legalrrow>
              </Footer.Logocon>
             </Footer.Ultra>
            </Footer.Megacontainer>

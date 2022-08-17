@@ -16,7 +16,10 @@ import { Wraper,
          LegaLR,
          Containerl,
          Linkimg,
-         Linklogo} from "./styles/footer"
+         Linklogo,
+         Legalrc,
+         Legalrrow,
+         Linklr} from "./styles/footer"
 export default function Footer( {children, ...restProps}){ 
     
     return (
@@ -74,4 +77,13 @@ Footer.Linkimg = function FooterLinkimg({children, ...restProps}){
 }
 Footer.Linklogo = function FooterLink({children, ...restProps}){
     return(<Linklogo {...restProps}>{children}</Linklogo>)
+}
+Footer.Legalrc = function FooterLegalrc({children, ...restProps}){
+    return(<Legalrc {...restProps}>{children}</Legalrc>)
+}
+Footer.Legalrrow = function FooterLegalrrow({children, ...restProps}){
+    return(<Legalrrow {...restProps}>{children}</Legalrrow>)
+}
+Footer.Linklr = function FooterLinklr({children, ...restProps}){
+    return(<Linklr {...restProps}>{children}</Linklr>)
 }
