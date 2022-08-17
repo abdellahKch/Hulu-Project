@@ -2,11 +2,13 @@ import styled from "styled-components/macro"
 //  Container, Item, Row, Column, Link, Text
 
 export const Wraper = styled.div`
+margin-buttom: 0px;
 width: 100%;
 height: 452px;
 background-color: #e9eaee;
-pistion:fixed;
-margin-buttom: 0px;
+postion:absolute;
+buttom: 0;
+
 `
 export const Megacontainer = styled.div`
 margin: auto;
@@ -52,6 +54,7 @@ display: flex;
 `
 
 export const Link = styled.a`
+color:#50535B;
 font-family: "Graphik Web",sans-serif;
 font-size: 14px;
 font-weight: 400;
@@ -63,7 +66,6 @@ display: block;
 flex-direction: column;
 text-align: left;
 text-decoration: none;
-
 `
 export const Span = styled.span`
 width:70px;
@@ -80,4 +82,39 @@ export const Break = styled.div`
   height: 10px;
 `;
 export const Column = styled.div`
+`
+export const Logocon = styled.div`
+    display: flex;
+    flex-direction: column;
+    height:130px;
+    border-top: 2px solid #D9DCE2;
+    padding: 32px 0 0 0;
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 32px;
+    justify-content: space-between;
+}
+`
+export const LegalLinksc = styled.div`
+margin:0px 35px 35px 0px;
+height:32px;
+width:250px;
+
+`
+export const Containerl = styled.div`
+display:flex
+width:inherit;
+height:inherit;
+`
+export const Linklogo = styled.a`
+padding-right: 42px;
+text-decoration: none;
+ 
+`
+export const Linkimg = styled.img`
+width: ${({ width }) => width};
+height:${({height }) => height};;
+`
+export const LegaLR = styled.div`
 `

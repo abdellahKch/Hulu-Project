@@ -85,6 +85,24 @@ export function FooterContainer(){
                  </Footer.Container>
                </Footer.Browsec>
              </Footer.Linkc>
+             <Footer.Logocon>
+              <Footer.LegalLinksc>
+                <Footer.Containerl>
+                  <Footer.Linklogo href="#">
+                   <Footer.Linkimg width = {11} height = {19} src="https://www.hulu.com/static/hitch/static/icons/facebook.svg"></Footer.Linkimg>
+                  </Footer.Linklogo>
+                  <Footer.Linklogo href="#">
+                   <Footer.Linkimg width = {20} height = {16} src="https://www.hulu.com/static/hitch/static/icons/twitter.svg"></Footer.Linkimg>
+                  </Footer.Linklogo>
+                  <Footer.Linklogo href="#">
+                   <Footer.Linkimg width = {24} height = {19} src="https://www.hulu.com/static/hitch/static/icons/youtube.svg"></Footer.Linkimg>
+                  </Footer.Linklogo>
+                  <Footer.Linklogo href="#">
+                   <Footer.Linkimg width = {18} height = {18} src="https://www.hulu.com/static/hitch/static/icons/instagram.svg"></Footer.Linkimg>
+                  </Footer.Linklogo>
+                </Footer.Containerl>
+              </Footer.LegalLinksc>
+             </Footer.Logocon>
             </Footer.Ultra>
            </Footer.Megacontainer>
          </Footer>)

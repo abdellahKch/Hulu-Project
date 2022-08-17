@@ -10,8 +10,14 @@ import { Wraper,
          Link,
          Span,
          Break,
-         Column} from "./styles/footer"
-export default function Footer( {children, ...restProps}){
+         Column,
+         Logocon,
+         LegalLinksc,
+         LegaLR,
+         Containerl,
+         Linkimg,
+         Linklogo} from "./styles/footer"
+export default function Footer( {children, ...restProps}){ 
     
     return (
             <Wraper {...restProps}>{children}</Wraper>
@@ -50,4 +56,22 @@ Footer.Break = function FooterBreak({children, ...restProps}){
 }
 Footer.Column = function FooterColumn({children, ...restProps}){
     return(<Column {...restProps}>{children}</Column>)
+}
+Footer.Logocon = function FooterLogoc({children, ...restProps}){
+    return(<Logocon {...restProps}>{children}</Logocon>)
+}
+Footer.LegalLinksc = function FooterLegalLinksc({children, ...restProps}){
+    return(<LegalLinksc {...restProps}>{children}</LegalLinksc>)
+}
+Footer.LegaLR = function FooterLegaLR({children, ...restProps}){
+    return(<LegaLR {...restProps}>{children}</LegaLR>)
+}
+Footer.Containerl = function FooterLegaLR({children, ...restProps}){
+    return(<Containerl {...restProps}>{children}</Containerl>)
+}
+Footer.Linkimg = function FooterLinkimg({children, ...restProps}){
+    return(<Linkimg {...restProps}>{children}</Linkimg>)
+}
+Footer.Linklogo = function FooterLink({children, ...restProps}){
+    return(<Linklogo {...restProps}>{children}</Linklogo>)
 }
